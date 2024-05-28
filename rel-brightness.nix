@@ -5,7 +5,7 @@ pkgs.stdenv.mkDerivation rec {
 
   src = builtins.fetchGit {
     url = "https://github.com/ReallySnazzy/relative-brightness.git";
-    rev = "1308c503ca83222a1574f2d898b145639fc33b44";
+    rev = "f6e1570097e00740388d5e6f7de09c6c16b0d0da";
   };
 
   buildInputs = with pkgs; [
